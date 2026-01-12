@@ -1,0 +1,215 @@
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* similar class */
+.btn {
+  width: 164px;
+  height: 44px;
+  border-radius: 4px;
+  padding: 12px 16px;
+  background-color: #30b868;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+/* Different class  */
+.nav-section {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 92px;
+  display: flex;
+}
+.logo-section {
+  width: 139px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 16px 0 16px 120px;
+}
+.logo-section .light {
+  width: 47px;
+  height: 56px;
+}
+.logo {
+  line-height: 0.9;
+}
+
+.logo-text {
+  font-size: 50px;
+  font-weight: 800px;
+  color: #2f7d4c;
+}
+
+.logo-subtext {
+  font-weight: 800px;
+  font-size: 7px;
+  letter-spacing: 0.7px;
+  color: #000;
+}
+.nav-section .item-section {
+  margin: 34px 0 34px 346px;
+}
+
+.nav-section .item-section ul {
+  list-style: none;
+  display: flex;
+  width: 365px;
+  height: 24px;
+  gap: 32px;
+  font-size: 16px;
+  color: #000000;
+}
+.nav-section .item-section li a {
+  text-decoration: none;
+}
+.nav-section .btn-section {
+  margin: 24px 120px 24px 346px;
+}
+
+.hero-section {
+  width: full;
+  max-width: 1600px;
+  height: 674px;
+  border: 1px solid black;
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.689)),
+    url(./assets/123a6514600ac601fbc05507e7ded07214433981.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.hero-section .hero-container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  height: 379px;
+  margin: 115px 120px 180px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+.hero-section .hero-container .hero-top-text {
+  width: 229px;
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  margin-left: 565px;
+}
+.hero-section .hero-container .hero-top-text .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #30b868;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.hero-section .hero-container .hero-top-text p {
+  width: 183px;
+  height: 19px;
+  color: #469165;
+  padding: 8px 12px 8px 6px;
+}
+.hero-section .hero-container .hero-text {
+  margin: 16px 290px;
+}
+.hero-section .hero-container .hero-text h1 {
+  width: 770px;
+  height: 168px;
+  color: white;
+  font-size: 72px;
+  line-height: 84px;
+  font-style: bold;
+}
+.hero-section .hero-container .hero-text span {
+  color: #30B868;
+}
+.hero-section .hero-container .hero-paragraph {
+  width: 85%;
+  max-width: 1360px;
+  height: 60px;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 24px;
+}
+.hero-section .hero-container .btn-container {
+  width: 85%;
+  max-width: 1360px;
+  height: 84px;
+  margin-top: 32px;
+}
+
+.hero-section .hero-container .btn-container .hero-btn {
+  width: 465px;
+  height: 52px;
+  
+}
+
+.hero-section .hero-container .btn-container .hero-btn .btn1 {
+  background-color: #469165;
+  border: 1px solid blue;
+  cursor: pointer;
+  padding: 12px 18px;
+
+}
+.hero-section .hero-container .btn-container .hero-btn .a1 {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.hero-section .hero-container .btn-container .hero-btn .btn2 {
+  padding: 12px 18px;
+  border: 1px solid blue;
+  background: none;
+  cursor: pointer;
+  margin-left: 12px;
+  
+}
+.hero-section .hero-container .btn-container .hero-btn .a2 {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-section {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-section .text-container h1 {
+  font-size: 48px;
+  font: bold;
+  color: #001931;
+  margin-top: 50px;
+  text-align: center;
+}
+.text-section .text-container p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-top: 16px;
+  text-align: center;
+}
